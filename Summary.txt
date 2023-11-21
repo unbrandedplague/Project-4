@@ -1,0 +1,19 @@
+Overall Model Fit:
+For both the Department of Labor and the Department of Commerce, the logistic regression models with 'None' and 'L2' penalties exhibit similar performance metrics, including accuracy, precision, recall, and F1 score. The pseudo R2 values for both penalty types are also close, indicating a consistent fit.
+Importance of Different Features:
+The coefficients for each feature in the logistic regression models provide insights into their importance. Negative coefficients suggest a negative impact on the target variable, while positive coefficients suggest a positive impact. Here are some notable features for each department:
+Department of Labor:
+Features with negative coefficients, such as 'Inspire,' 'Encouraged,' 'Expected,' 'DAGEGRP,' and 'DFEDTEN,' seem to have a negative impact on the target variable.
+Features with positive coefficients, like 'Accessibilty,' 'Standards,' 'Development,' 'Trust,' and 'DSEX,' have a positive impact on the target variable.
+Department of Commerce:
+Features like 'Relate,' 'Encouraged,' 'DAGEGRP,' and 'DFEDTEN' have negative coefficients, suggesting a negative impact on the target variable.
+Features with positive coefficients, such as 'Accessibilty,' 'Standards,' 'Communicate,' 'Diversity,' 'DSEX,' and 'Expected,' have a positive impact on the target variable.
+Model Fit Comparison between Departments:
+The logistic regression models perform similarly on data from both agencies in terms of accuracy, precision, recall, and F1 score. The performance metrics are consistent, indicating that the models generalize well across different datasets.
+Logistic Regression vs. Random Forest (Department of Commerce):
+A comparison between logistic regression and random forest models for the Department of Commerce shows similar accuracy but differences in precision, recall, and F1 score.
+Logistic regression outperforms random forest in terms of precision, while random forest has higher recall and F1 score. This trade-off suggests different strengths in capturing true positives and minimizing false positives.
+Summary:
+Logistic regression models with 'None' and 'L2' penalties demonstrate robust performance on the provided datasets, capturing patterns in the data effectively.
+Feature coefficients provide insights into the impact of different factors on the target variable for each department.
+Logistic regression shows consistent performance across departments, highlighting its suitability for generalization to different datasets.
